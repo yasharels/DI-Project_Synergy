@@ -1,21 +1,235 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
+    <link rel ="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" />
+
+    <link rel="stylesheet" href="./assets/CSS/about.css" />
+    <script src="./assets/JS/about.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
     <meta charset="UTF-8" />
-    <title>About CleverCash</title>
+    <title>CleverCash - About</title>
   </head>
+
+
   <body>
-    <p>
-      CleverCash wallets look like most of the wallets you've known and loved until now - they're made of real leather, and hold your money and cards just the same.
-      But our wallets are also different in a fundamental way.
-    </p>
-    <p>
-      We at CleverCash know that losing your wallet can be more than an inconvenience.
-      That's why our wallets are designed with a focus on being easily retrievable in case you do experience this all too common issue.
-      CleverCash wallets are designed with built-in, lightweight GPS technology that works with your smartphone to help you locate your wallet the moment it's known to be missing.
-    </p>
-    <p>
-      The wallets cost $50.
-    </p>
+    <script src="./assets/JS/fade.js"></script>
+
+
+
+    <!-- navigation start -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class = "container">
+        <a href="index.html" class="navbar-brand d-md-none" style="font-family: cursive; font-size:x-large;">
+          CleverCash
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ">
+            <li class="nav-item d-none d-md-block">
+              <a href="index.html" class="navbar-brand mx-md-2 mx-xl-3" style="font-family: cursive; font-size:x-large;">
+                CleverCash
+              </a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-uppercase" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="product.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="contact.html">Contact</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>    
+    </nav>
+    <!-- navigation end -->
+
+
+    <!-- first section -->
+    <div class="fade" class="content">
+      <img id ="background-image" src="assets/img/about_background.jpeg">
+      <div class="carousel-caption" id="where">
+        <h1 class = "title-about" >For A More Secure Future</h1>
+        <h4 class = "mission">We are devoted to protect the safety of your personal information</h4>
+      </div>
+    </div>
+
+    <!-- second section  -->
+    <div class="fade" class="section" id="second">
+      <div class="container">
+        <div class="describe">
+          <h2>About Us</h2>
+          <p>
+            Founded in 2020, CleverClash was created to evolve security in this innovative society. 
+            We know that losing your wallet can be more than an inconvenience.
+          </p>
+
+          <p>
+            In a fast-moving life comes risks of one’s wallet, filled with one’s personal information, 
+            being lost, misplaced, or even stolen. That’s why our wallets are designed with built-in, 
+            lightweight GPS technology that works with your smartphone to help you locate the moment 
+            it's missing.
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- third section  -->
+    <div class="fade" class="section" id="third">
+      <div class="container">
+          <h1 class = "founders">Meet Our Founders</h1>
+      </div>
+    </div>
+
+    <!-- fourth section  -->
+    <div class="fade" class="section" id="founders">
+      <div class ="container">
+        <div class ="row">
+          
+          <div id="person"  class= "col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <h1 class="name">Harshita Ahuja</h1>
+            <p class="description">
+              a freshman at Baruch College and a fellow at Diverse Influencers
+            </p>
+            <a class="link" href="https://www.linkedin.com/in/harshitaahuja/">Want to know more?</a>
+          </div>
+
+          <div id="pic" class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <img class ="HA_profile" src="assets/img/files-and-folders.png">
+            <img class ="HA_switch" src="assets/img/HA.jpeg">
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- fifth section  -->
+    <div class="fade" class="section" id="founders">
+      <div class ="container">
+        <div class ="row">
+          
+          <div id="pic" class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <img class ="YS_profile" src="assets/img/code-2.png">
+            <img class ="YS_switch" src="assets/img/YS.jpeg">
+          </div>
+
+          <div id="person"  class= "col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <h1 class="name">Yasharel Saiedian</h1>
+            <p class="description">
+              an aspriing software engineer, whose a freshman at Queens College and a fellow at 
+              Diverse Influencers
+            </p>
+            <a class="link" href="https://www.linkedin.com/in/ysaiedian/">Want to know more?</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- sixth section  -->
+    <div class="fade" class="section" id="founders">
+      <div class ="container">
+        <div class ="row">
+          
+          <div id="person"  class= "col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <h1 class="name">Ximena Diaz</h1>
+            <p class="description">
+              a freshman at Hunter College, majoring in Economics, and a fellow at Diverse 
+              Influencers. She is currently a Data Analyst Intern at Morgan Stanley
+            </p>
+            <a class="link" href="https://www.linkedin.com/in/ximenadiaz1310/">Want to know more?</a>
+          </div>
+
+          <div id="pic" class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <img class ="XD_profile" src="assets/img/coins.png">
+            <img class ="XD_switch" src="assets/img/XD.jpeg">
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- fifth section  -->
+    <div class="fade" class="section" id="founders">
+      <div class ="container">
+        <div class ="row">
+          
+          <div id="pic" class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <img class ="KC_profile" src="assets/img/code.png">
+            <img class ="KC_switch" src="assets/img/KC.jpeg">
+          </div>
+
+          <div id="person"  class= "col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <h1 class="name">Kelly Camacho</h1>
+            <p class="description">
+              idk
+            </p>
+            <a class="link" href="https://www.linkedin.com/in/kelly-camacho/">Want to know more?</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer is below -->
+    <div class="section" id="footer">
+      <div class="container">
+        <div class="row">
+
+          <div class="col col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 mb-4">
+            <div class="footer-links">
+              <h4 class="footer-links-header">Menu</h4>
+  
+              <div class="footer-link">
+                <a id="link" href="index.html">Home</a>
+                <a id="link" href="about.html">About</a>
+                <a id="link" href="product.html">Products</a>
+                <a id="link" href="faq.html">FAQ</a>
+                <a id="link" href="contact.html">Contact</a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 mb-4">
+            <div class="footer-links">
+
+              <h4 class="footer-links-header">Find Us</h4>
+              <div id="link">New York City, Ny, 10000</div>
+              <div id="link">123 street</div>
+              
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>

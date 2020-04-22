@@ -1,9 +1,69 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
+    <link rel ="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" />
+
+    <link rel="stylesheet" href="./assets/CSS/product.css" />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
     <title>CleverCash - Learn More</title>
   </head>
   <body>
+    <script src="./assets/JS/fade.js"></script>
+
+    <!-- navigation start -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class = "container">
+        <a href="index.html" class="navbar-brand d-md-none" style="font-family: cursive; font-size:x-large;">
+          CleverCash
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ">
+            <li class="nav-item d-none d-md-block">
+              <a href="index.html" class="navbar-brand mx-md-2 mx-xl-3" style="font-family: cursive; font-size:x-large;">
+                CleverCash
+              </a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-uppercase" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="product.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="contact.html">Contact</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>    
+    </nav>
+    <!-- navigation end -->
+
+
     <p>
       CleverCash wallets are designed to be easily retrievable in case you lose them. They work with your smartphone to help you find them.
       It works by connecting to your smartphone via the CleverCash app, available on iOS, android, and other devices. <!-- Include specific info about other devices in the future. !-->
@@ -16,5 +76,42 @@
         The app allows for two tracking modes - "off" and "on." If tracking mode is on, the app will alert you when your wallet exceeds its set range. If it's off, then it will not alert you at all.
         The app allows you to customize the ways in which it alerts you. You can choose to be alerted by any combination of ringing, vibrating, or popup notifications.
       </p>
+
+
+
+      <!-- Footer is below -->
+    <div class="section" id="footer">
+      <div class="container">
+        <div class="row">
+
+          <div class="col col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 mb-4">
+            <div class="footer-links">
+              <h4 class="footer-links-header">Menu</h4>
+  
+              <div class="footer-link">
+                <a id="link" href="index.html">Home</a>
+                <a id="link" href="about.html">About</a>
+                <a id="link" href="product.html">Products</a>
+                <a id="link" href="faq.html">FAQ</a>
+                <a id="link" href="contact.html">Contact</a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 mb-4">
+            <div class="footer-links">
+
+              <h4 class="footer-links-header">Find Us</h4>
+              <div id="link">New York City, Ny, 10000</div>
+              <div id="link">123 street</div>
+              
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
