@@ -1,6 +1,6 @@
 /* nabbar header */
 nav {
-    background-color: #fffcf9;
+    background-color: #000000;
     position: relative;
     text-align: center;
     align-items: stretch;
@@ -14,11 +14,11 @@ nav ul {
 } 
 
 nav a {
-    color: #800000 !important;
+    color: #ffe7bb !important;
 }
 
 nav li a:hover {
-    color: #3f2401 !important;
+    color: #ffffff !important;
 }
 
 /* for all*/
@@ -29,46 +29,22 @@ nav li a:hover {
     min-height: 150px;
 }
 
-
-/*title*/
-.title {
-    padding: 5vw;
+/* form*/
+.form_title {
     text-align: center;
-    font-family: 'Lucida Sans';
-    color: #6b0000;
+    color: #273646;
 }
 
-.section_title {
-    font-family: 'Lucida Sans';
-    color: #6b0000;
-}
-
-/*Top Questions*/
-.tq {
-    font-size: 23px;
-    color: #bb7b51;
-}
-
-.tq:hover {
-    color: #3f2401 !important;
-}
-
-.tq_textbody {
-    padding-left: 50px;
-    color: #74371b;
-    font-size: larger;
-    font-family: 'Lucida Sans';
-}
 
 /* footer */
 #footer {
     padding-top: 15px;
-    background:#ffeee2;
+    background:#fff5e3;
 }
 
 .footer-links-header {
     display: flex;
-    color: #963507;
+    color: #351100;
 }
 
 .footer-link {
@@ -78,9 +54,9 @@ nav li a:hover {
 
 #link {
     font-size: small;
-    color: #520a0a;
+    color: #533900;
 }
 
 #link:hover {
-    color: #cf3664;
+    color: #d4b170;
 }
