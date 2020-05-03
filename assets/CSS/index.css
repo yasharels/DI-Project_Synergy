@@ -1,45 +1,8 @@
-/* carousel */
-#c_pic {
-    opacity: 0.9;
-}
-
-#c_caption1{
-    top: 7% !important;
-    left: 71% !important;
-}
-
-.c_text1 {
-    color: #fcf4ef;
-    text-shadow: 3px 3px #520a0a;
-    font-family: Haettenschweiler;
-    font-size: 8vw;
-}
-
-#c_caption2{
-    top: 0% !important;
-}
-
-.c_text2 {
-    color: #fcf4ef;
-    text-shadow: 3px 3px #520a0a;
-    font-family: Haettenschweiler;
-    font: bold;
-    font-size: 5.8vw;
-}
-
-#c_caption3{
-    top: 57% !important;
-
-}
-
-.c_text3 {
-    color: #fcf4ef;
-    text-shadow: 3px 3px #520a0a;
-    font-family: Haettenschweiler;
-    font-size: 7.7vw;
-
-}
 /* for all */
+#marked {
+    color: #f88f65;
+}
+
 .section {
     display: flex;
     flex-direction: row;
@@ -51,10 +14,64 @@
     opacity: 1;
 }
 
-/* Second Third Fourth*/
-#second {
-    padding-top: 60px;
+/* first */
+#first {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
+
+.first_text {
+    font-family: 'Lucida Sans';
+    font-size: 5vw;
+    padding-bottom: 50px;
+}
+
+#first_pic {
+    max-height: 500px;
+    width: 100%;
+    height: auto;
+}
+
+.first_marked {
+    font-size: 6vw;
+}
+
+/* second */
+#second {
+    padding-top: 150px;
+}
+
+#card #feature_pic {
+    align-items: center;
+} 
+
+#second_pic {
+    max-height: 500px;
+    padding-left: 15%;
+    width: 50%;
+    height: auto;
+}
+
+#feature_pic {
+    max-height: 500px;
+    width: 100%;
+    height: auto;
+}
+
+/* Second Third Fourth*/
+#third {
+    background-image: linear-gradient(#ffffff, #ffd3b0);
+
+}
+
+#fourth {
+    background-image: linear-gradient(#ffd3b0, #ffffff);
+
+}
+
 #feature {
     display: flex;
     flex-direction: column;
@@ -77,12 +94,6 @@
     font-family: Times;
 }
 
-#feature_pic {
-    max-height: 500px;
-    width: 100%;
-    height: auto;
-}
-
 #fourth {
     padding-bottom: 60px;
 }
@@ -90,7 +101,6 @@
 /* fifth*/
 #fifth {
     padding: 60px;
-    background-image: linear-gradient(white, #ffd3aa);
 }
 .fifth_title {
     text-align: center;
@@ -100,12 +110,10 @@
 }
 
 /* fifth*/
-#sixth {
-    background-color: #ffd3aa;
-}
+
 
 .items {
-    display: inline-block;
+display: inline-block;
   width: 3em;
   height: 3em;
   margin-right: 1em;
@@ -114,7 +122,6 @@
 }
 
 #card {
-    background-color: #ffd3aa;
     max-width: 25rem;
     border: none;
     margin: 0 auto; /* Added */
@@ -134,7 +141,7 @@
 }
 
 i {
-    color: #fff3cd;
+    color: #ff7842;
     margin-left: 42%;
 }
 

@@ -1,6 +1,6 @@
 /* nabbar header */
 nav {
-    background-color: #f5f5f5;
+    background-color: #ffffff;
     position: relative;
     text-align: center;
     align-items: stretch;
@@ -14,18 +14,18 @@ nav ul {
 } 
 
 nav a {
-    color: #4d2a0a !important;
+    color: #572a00 !important;
 }
 
 nav li a:hover {
-    color: #e03e3e !important;
+    color: #dd8219 !important;
 }
 
 
 /* footer */
 #footer {
     padding-top: 15px;
-    background:#fff2e5;
+    background:#ffffff;
 }
 
 .footer-links-header {
