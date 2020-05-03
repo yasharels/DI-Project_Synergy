@@ -1,26 +1,3 @@
-/* nabbar header */
-nav {
-    background-color: #000000;
-    position: relative;
-    text-align: center;
-    align-items: stretch;
-}
-
-nav ul {
-    list-style-type: none;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-} 
-
-nav a {
-    color: #ffe7bb !important;
-}
-
-nav li a:hover {
-    color: #ffffff !important;
-}
-
 /* for all*/
 .section {
     display: flex;
@@ -30,33 +7,12 @@ nav li a:hover {
 }
 
 /* form*/
+#form {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .form_title {
     text-align: center;
     color: #273646;
-}
-
-
-/* footer */
-#footer {
-    padding-top: 15px;
-    background:#fff5e3;
-}
-
-.footer-links-header {
-    display: flex;
-    color: #351100;
-}
-
-.footer-link {
-    display: flex;
-    flex-direction: column;
-}
-
-#link {
-    font-size: small;
-    color: #533900;
-}
-
-#link:hover {
-    color: #d4b170;
 }
