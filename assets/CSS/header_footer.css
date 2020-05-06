@@ -21,11 +21,23 @@ nav li a:hover {
     color: #dd8219 !important;
 }
 
+.logo-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+#logo_text {
+    display: flex;
+    flex-direction: row;
+}
 
 /* footer */
 #footer {
     padding-top: 15px;
-    background:#ffffff;
+    background:#eeeeee;
 }
 
 .footer-links-header {

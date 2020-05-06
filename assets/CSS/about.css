@@ -6,10 +6,6 @@
     min-height: 150px;
 }
 
-.fade {
-    opacity: 1;
-}
-
 /* first */
 #where {
     top: 6% !important;
@@ -75,7 +71,7 @@ img {
 
 .name {
     text-align: center;
-    padding: 10px;
+    padding-top: 25px;
     font-size: 50px;
     font-family: 'Lucida Sans';
     color: #80b6c0;
@@ -101,6 +97,7 @@ img {
     font-style: oblique;
     font-family: cursive;
     font-weight: bolder;
+    padding-bottom: 19px;
 }
 
 #pic {

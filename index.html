@@ -23,13 +23,15 @@
   </head>
 
   <body>
-    <script src="./assets/JS/fade.js"></script>
+    <script src="./assets/JS/fade.js"></script> 
 
     <!-- navigation start -->
     <nav class="navbar navbar-expand-md navbar-light">
       <div class = "container">
-        <a href="index.html" class="navbar-brand d-md-none" style="font-family: cursive; font-size:x-large;">
-          
+        <a href="index.html" id="logo_text" class="navbar-brand d-md-none" style="font-family: cursive; font-size:x-large;">
+          <div class="logo-image">
+            <img class="img-fluid" src="assets/img/Logo.png">
+          </div>
           CleverCash
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -40,7 +42,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ">
             <li class="nav-item d-none d-md-block">
-              <a href="index.html" class="navbar-brand mx-md-2 mx-xl-3" style="font-family: cursive; font-size:x-large;">
+              <a href="index.html" id="logo_text" class="navbar-brand mx-md-2 mx-xl-3" style="font-family: cursive; font-size:x-large;">
+                <div class="logo-image">
+                  <img class="img-fluid" src="assets/img/Logo.png">
+                </div>
                 CleverCash
               </a>
             </li>
@@ -78,7 +83,7 @@
           </div>
 
           <div id="image" class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            <img id="first_pic" src="assets/img/undraw_instant_information.svg">
+            <img id="first_pic" src="assets/img/undraw_directions.svg">
          </div>    
         </div>
       </div>  
@@ -112,37 +117,21 @@
 
     <!--section 3-->
     <div class="section" id="third">
-      <div class ="container">
-        <div class ="row ">  
-          <div id="image" class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            <img class="fade" id="feature_pic" src="assets/img/explaining_1.jpeg">
-         </div>
-
-          <div id="feature"  class= "col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            <h1 class="section_title">Tracking Feature</h1>
-            <p class="description">
-              preventing you from losing your wallet and easily lets you track down your belongings
-            </p>
-          </div>
-        </div>
+      <img class="logo_describe" src="assets/img/Logo.png">
+      <div class="logo_text" class="fade">
+        <h4>“At the end of the day, the goals are
+          simple: Safety and Security”
+        </h4>
       </div>
-    </div>
+  </div>
 
     <!--section 4-->
     <div class="section" id="fourth">
       <div class ="container">
-        <div class ="row">   
-          <div id="feature"  class= "col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            <h1 class="section_title">Simple Design</h1>
-            <p class="description">
-              avoiding the unnecessary features you don't want in a wallet and recieve a faster loading time
-            </p>
-          </div>
+        <h4 class="fade" class="description">
+          avoiding the unnecessary features you don't want in a wallet and recieve a faster loading time
+        </h4>
 
-          <div id="image" class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            <img class="fade" id="feature_pic" src="assets/img/simple.jpeg">
-          </div>   
-        </div>
       </div>
     </div>  
 
