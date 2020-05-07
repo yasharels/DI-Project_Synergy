@@ -37,3 +37,13 @@
     font-size: larger;
     font-family: 'Lucida Sans';
 }
+
+/*images*/
+
+
+.q_img {
+    max-height: 500px;
+    width: 100%;
+    margin-top: -20%;
+    margin-left: 25%;
+}

@@ -57,16 +57,10 @@
     height: auto;
 }
 
-/* Second Third Fourth*/
+/*Third*/
 #third {
     background-image: linear-gradient(#ffffff, #85471dd0 ,#85471d);
 
-}
-
-#fourth {
-    background-image: linear-gradient(#85471d, #85471dd0,#ffffff);
-    padding-bottom: 100px;
-    padding-top: 50px;
 }
 
 .logo_describe {
@@ -75,13 +69,29 @@
 }
 
 .description {
-    text-align: center;
     font-family: Times;
 }
 
 .logo_text {
+    text-align: center;
     padding-left: 0%;
+    font-size: 3vw;
 }
+
+.go_to_product {
+    font-size: 22px;
+    color: #9c3528;
+}
+
+.go_to_product:hover {
+    color: #d3ac71;
+}
+
+/*Fourth*/
+#fourth {
+    padding-bottom: 100px;
+}
+
 
 /* fifth*/
 #fifth {
