@@ -148,15 +148,15 @@
 /* third*/
 
 .third_wallet {
-    width: 100%;
+    width: 150%;
     margin-top: 100px;
-    margin-left: -55%;
+    margin-left: -105%;
     transform: translate3d(0px, 0px, 0px);
     transition: transform .2s ease-in-out;
 }
 
 .third_wallet:hover {
-    transform: translate3d(50%, 0px, 0px);
+    transform: translate3d(30%, 0px, 0px);
 }
 
 .third_text {
@@ -203,13 +203,12 @@
 .sixth_wallet {
     width: 150%;
     margin-top: 100px;
-    margin-left: 60%;
     transform: translate3d(0px, 0px, 0px);
     transition: transform .2s ease-in-out;
 }
 
 .sixth_wallet:hover {
-    transform: translate3d(-30%, 0px, 0px);
+    transform: translate3d(0px, 50px, 0px);
 }
 
 /* seventh*/
@@ -263,20 +262,19 @@
 .product {
 	display: grid;
 	margin: auto;
-	padding: 2.5em 0;
+	padding: 2.5em ;
 	min-width: 600px;
 	background-color: white;
 }
 
 /* ----- Photo Section ----- */
 .product_img {
-    margin-left: 10%;
     max-width: 100%;
 }
 
 /* ----- Informations Section ----- */
 .product__info {
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .title h1 {
@@ -287,6 +285,11 @@
 
 .title span {
     font-size: 1em;
+}
+
+#border {
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 .buy--btn {
