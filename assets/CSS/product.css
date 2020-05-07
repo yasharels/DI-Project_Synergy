@@ -313,3 +313,8 @@
     color: #df3f23;
     box-shadow: 2px 2px 25px -7px #3d1302ce;
 }
+
+.nav_title {
+    color: #c74917;
+    margin-left: 50%;
+}
