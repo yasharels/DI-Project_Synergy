@@ -92,6 +92,18 @@
     padding-bottom: 100px;
 }
 
+#product_say {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#pro_pic {
+    max-height: 600px;
+    width: 100%;
+    height: auto;
+    margin-left: 1.9%;
+}
 
 /* fifth*/
 #fifth {
