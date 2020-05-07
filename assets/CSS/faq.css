@@ -1,81 +1,49 @@
-/* nabbar header */
-nav {
-    background-color: #fffcf9;
-    position: relative;
-    text-align: center;
-    align-items: stretch;
+/* for all*/
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 150px;
 }
 
-nav ul {
-    list-style-type: none;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
+/*title*/
+.title {
+    padding: 5vw;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    color: #6b0000;
 } 
 
-nav a {
-    color: #800000 !important;
+.section_title {
+    padding-left: 5%;
+    font-family: 'Lucida Sans';
+    color: #6b0000;
 }
 
-nav li a:hover {
-    color: #794808 !important;
+/*Top Questions*/
+.tq {
+    padding-left: 5%;
+    font-size: 23px;
+    color: #bb7b51;
 }
 
-
-/*questions*/
-h2 {
-    font-family: Arial, Verdana;
-    font-weight: 800;
-    font-size: 2.5rem;
-    color: #091f2f;
-    text-transform: uppercase;
-}
-.accordion-section .panel-default > .panel-heading {
-    border: 0;
-    background: #f4f4f4;
-    padding: 0;
-}
-.accordion-section .panel-default .panel-title a {
-    display: block;
-    font-style: italic;
-    font-size: 1.5rem;
-}
-.accordion-section .panel-default .panel-title a:after {
-    font-family: 'FontAwesome';
-    font-style: normal;
-    font-size: 3rem;
-    content: "\f106";
-    color: #1f7de2;
-    float: right;
-    margin-top: -12px;
-}
-.accordion-section .panel-default .panel-title a.collapsed:after {
-    content: "\f107";
-}
-.accordion-section .panel-default .panel-body {
-    font-size: 1.2rem;
+.tq:hover {
+    color: #3f2401 !important;
 }
 
-/* footer */
-#footer {
-    background:#ffeee2;
+.tq_textbody {
+    padding-left: 10%;
+    color: #74371b;
+    font-size: larger;
+    font-family: 'Lucida Sans';
 }
 
-.footer-links-header {
-    display: flex;
-    color: #963507;
-}
+/*images*/
 
-.footer-link {
-    display: flex;
-    flex-direction: column;
-}
 
-#link {
-    font-size: small;
-    color: #520a0a;
-}
-
-#link:hover {
-    color: #cf3664;
+.q_img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-height: 500px;
+    width: 100%;
 }

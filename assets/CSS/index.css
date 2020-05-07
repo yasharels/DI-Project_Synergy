@@ -1,102 +1,54 @@
-/* nabbar header */
-nav {
-    position: relative;
-    text-align: center;
-    align-items: stretch;
-}
-
-nav ul {
-    list-style-type: none;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-} 
-
-nav a {
-    color: #803a00 !important;
-}
-
-nav li a:hover {
-    color: #bb3f3f !important;
-}
-
-/* carousel */
-#c_pic {
-    opacity: 0.9;
-}
-
-#c_caption1{
-    top: 7% !important;
-    left: 71% !important;
-}
-
-.c_text1 {
-    color: #b8f0e8;
-    text-shadow: -2px -2px #6f9acc;
-    font-family: Haettenschweiler;
-    font-size: 8vw;
-}
-
-#c_caption2{
-    top: 0% !important;
-}
-
-.c_text2 {
-    color: #8f2c0e;
-    text-shadow: -1px -1px #f3cbc4;
-    font-family: Haettenschweiler;
-    font: bold;
-    font-size: 5.7vw;
-}
-
-#c_caption3{
-    top: 57% !important;
-
-}
-
-.c_text3 {
-    color: #fcf4ef;
-    text-shadow: 3px 3px #520a0a;
-    font-family: Haettenschweiler;
-    font-size: 5.7vw;
-
-}
 /* for all */
+#marked {
+    color: #f88f65;
+}
+
 .section {
     display: flex;
     flex-direction: row;
     align-items: center;
-    min-height: 250px;
+    min-height: 150px;
 }
 
-.fade {
-    opacity: 1;
-}
-
-/* Second Third Fourth*/
-#second {
-    padding-top: 60px;
-}
-#feature {
+/* first */
+#first {
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
-    min-height: 300px;
 }
 
-.section_title {
-    color: #9c1515;
-    text-align: center;
-    font-family: fantasy;
-    font-weight: bold;
-    font-size: 50px;
-    padding: 10px;
+.first_text {
+    font-family: 'Lucida Sans';
+    font-size: 5vw;
+    padding-bottom: 50px;
 }
 
-.description {
-    text-align: center;
-    font-family: Times;
+#first_pic {
+    max-height: 500px;
+    width: 100%;
+    height: auto;
+}
+
+.first_marked {
+    font-size: 6vw;
+}
+
+/* second */
+#second {
+    padding-top: 150px;
+}
+
+#card #feature_pic {
+    align-items: center;
+} 
+
+#second_pic {
+    max-height: 500px;
+    padding-left: 15%;
+    width: 50%;
+    height: auto;
 }
 
 #feature_pic {
@@ -105,15 +57,47 @@ nav li a:hover {
     height: auto;
 }
 
-#fourth {
-    padding-bottom: 60px;
+/*Third*/
+#third {
+    background-image: linear-gradient(#ffffff, #85471dd0 ,#85471d);
+
 }
+
+.logo_describe {
+    margin-left: -10%;
+    width: 60%;
+}
+
+.description {
+    font-family: Times;
+}
+
+.logo_text {
+    text-align: center;
+    padding-left: 0%;
+    font-size: 3vw;
+}
+
+.go_to_product {
+    font-size: 22px;
+    color: #9c3528;
+}
+
+.go_to_product:hover {
+    color: #d3ac71;
+}
+
+/*Fourth*/
+#fourth {
+    padding-bottom: 100px;
+}
+
 
 /* fifth*/
 #fifth {
     padding: 60px;
-    background-image: linear-gradient(white, #ffe9e1);
 }
+
 .fifth_title {
     text-align: center;
     color: #851d41;
@@ -122,12 +106,8 @@ nav li a:hover {
 }
 
 /* fifth*/
-#sixth {
-    background-color: #ffe9e1;
-}
-
 .items {
-    display: inline-block;
+display: inline-block;
   width: 3em;
   height: 3em;
   margin-right: 1em;
@@ -136,7 +116,6 @@ nav li a:hover {
 }
 
 #card {
-    background-color: #ffe9e1;
     max-width: 25rem;
     border: none;
     margin: 0 auto; /* Added */
@@ -156,7 +135,7 @@ nav li a:hover {
 }
 
 i {
-    color: #f88d6c;
+    color: #ff7842;
     margin-left: 42%;
 }
 
@@ -169,7 +148,7 @@ i {
 }
 .fa-exclamation-circle:hover {
   animation: fa-exclamation-circle 1s linear infinite;
-  color: #800000 !important;
+  color: #800000 !important; 
 }
 
 .fa-spin-hover:hover {
@@ -240,7 +219,7 @@ color: #800000 !important;
 
 #where{
     position: absolute;
-    bottom: 40%;
+    bottom: 55%;
     right: 20px;
     color: white;
     padding-left: 70%;
@@ -248,48 +227,22 @@ color: #800000 !important;
 }
 
 .know {
-    color: #fdba9b;
+    color: #fdc099;
     font-style: oblique;
-    font-family: cursive;
-    font-weight: bolder;
+    font-weight: lighter;
     text-align: center;
-    font-size:5vw;
-    
+    font-size:5vw; 
 }
 
 .learn {
     position: absolute;
-    bottom: 30%;
+    bottom: 45%;
     right: 8%;
-    color: #fdba9b;
+    color: #fdc099;
     font-family: Lucida;
     font-size:3vw;
 }
 
 .learn:hover {
-    color: #a85117;
-}
-
-/* footer */
-#footer {
-    background:#f5c299;
-}
-
-.footer-links-header {
-    display: flex;
-    color: #851d41;
-}
-
-.footer-link {
-    display: flex;
-    flex-direction: column;
-}
-
-#link {
-    font-size: small;
-    color: #520a0a;
-}
-
-#link:hover {
-    color: #c77102;
+    color: #af3721;
 }

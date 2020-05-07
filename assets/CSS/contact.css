@@ -1,81 +1,48 @@
-input[type=text], select, textarea {
-  width: 100%; 
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical
+/* for all*/
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 150px;
 }
 
-
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-
-.form-container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-
-
-nav {
-    background-color: #fffcf9;
+/* form*/
+#first {
     position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#where {
+    top: 29% !important;
+    left: 14% !important;
+}
+
+.c_logo {
+    width: 20%;
+}
+
+/* second*/
+#second {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.phone_img {
+    width: 100%;
+    height: auto;
+}
+
+/* form*/
+#form {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.form_title {
     text-align: center;
-    align-items: stretch;
-}
-
-nav ul {
-    list-style-type: none;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-}
-
-nav a {
-    color: #800000 !important;
-}
-
-nav li a:hover {
-    color: #794808 !important;
+    color: #273646;
 }
 
 
 
-/* footer */
-#footer {
-    background:#ffeee2;
-}
-
-.footer-links-header {
-    display: flex;
-    color: #963507;
-}
-
-.footer-link {
-    display: flex;
-    flex-direction: column;
-}
-
-#link {
-    font-size: small;
-    color: #520a0a;
-}
-
-#link:hover {
-    color: #cf3664;
-}

@@ -1,52 +1,14 @@
-/* nabbar header */
-nav {
-    background-color: seashell;
-    position: relative;
-    text-align: center;
-    align-items: stretch;
-}
-
-nav ul {
-    list-style-type: none;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-} 
-
-nav a {
-    color: #803a00 !important;
-}
-
-nav li a:hover {
-    color: #ccb68e !important;
-}
-
 /* for all*/
-
 .section {
     display: flex;
     flex-direction: row;
     align-items: center;
-    min-height: 250px;
-}
-
-.fade {
-    opacity: 1;
+    min-height: 150px;
 }
 
 /* first */
-.content {
-    width: 100%;
-    position: relative;
-}
-
-#background-image {
-    position: relative;
-    width: 100%;
-}
-
-#where{
-    top: 15% !important;
+#where {
+    top: 6% !important;
 }
 
 .title-about {
@@ -91,8 +53,8 @@ nav li a:hover {
 
 /* founders */
 #founders {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 60px;
 }
 img {
     width: 100%;
@@ -108,18 +70,36 @@ img {
 }
 
 .name {
-    background: none!important;
-    border: none;
     text-align: center;
-    padding: 10px;
+    padding-top: 25px;
     font-size: 50px;
     font-family: 'Lucida Sans';
     color: #80b6c0;
 }
 
-.name:hover {
-    color: #ccb68e !important;
+.role {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans';
+    color: #2e656e;
 }
+
+.description {
+    color: #d69354;
+    font-style: oblique;
+    text-align: center;
+    font-size: 17px;
+}
+
+.link {
+    color: #ceb47c;
+    text-align: center;
+    font-style: oblique;
+    font-family: cursive;
+    font-weight: bolder;
+    padding-bottom: 19px;
+}
+
 #pic {
     display: flex;
     flex-direction: row;
@@ -139,7 +119,7 @@ img {
     top: 20;
     left: 25;
     z-index: 99;
-    width: 90%;
+    width: 80%;
 }
 .HA_switch:hover {
     opacity: 1;
@@ -160,7 +140,7 @@ img {
     top: 20;
     left: 25;
     z-index: 99;
-    width: 90%;
+    width: 80%;
 }
 .YS_switch:hover {
     opacity: 1;
@@ -181,7 +161,7 @@ img {
     top: 20;
     left: 25;
     z-index: 99;
-    width: 90%;
+    width: 80%;
 }
 .XD_switch:hover {
     opacity: 1;
@@ -202,7 +182,7 @@ img {
     top: 20;
     left: 25;
     z-index: 99;
-    width: 90%;
+    width: 80%;
 }
 .KC_switch:hover {
     opacity: 1;
@@ -212,42 +192,3 @@ img {
     opacity: 0;
 }
 
-.description {
-    color: #d69354;
-    font-style: oblique;
-    font-family: cursive;
-    font-weight: bolder;
-    text-align: center;
-}
-
-.link {
-    color: #f3dba6;
-    text-align: center;
-    font-style: oblique;
-    font-family: cursive;
-    font-weight: bolder;
-}
-
-/* footer */
-#footer {
-    background:#abc7cc;
-}
-
-.footer-links-header {
-    display: flex;
-    color: #b36908;
-}
-
-.footer-link {
-    display: flex;
-    flex-direction: column;
-}
-
-#link {
-    font-size: small;
-    color: #52330a;
-}
-
-#link:hover {
-    color: #cf9f36;
-}
