@@ -292,6 +292,10 @@
     margin-right: -10px;
 }
 
+button {
+    background-color: rgb(212, 157, 112);
+}
+
 .buy--btn {
 	padding: 1.5em 3.1em;
 	border: none;
