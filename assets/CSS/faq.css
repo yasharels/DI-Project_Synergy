@@ -42,8 +42,8 @@
 
 
 .q_img {
+    padding-top: 20px;
+    padding-bottom: 20px;
     max-height: 500px;
     width: 100%;
-    margin-top: -20%;
-    margin-left: 25%;
 }
