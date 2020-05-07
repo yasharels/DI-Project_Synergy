@@ -38,9 +38,18 @@
     font-family: 'Lucida Sans';
 }
 
+/*questions*/
+#general {
+    padding-top: 10%;
+}
+
+.panel-group {
+    width: 50%;
+    height: auto;
+    padding-top: 10%;
+}
+
 /*images*/
-
-
 .q_img {
     padding-top: 20px;
     padding-bottom: 20px;
