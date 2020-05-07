@@ -7,6 +7,33 @@
 }
 
 /* form*/
+#first {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#where {
+    top: 29% !important;
+    left: 14% !important;
+}
+
+.c_logo {
+    width: 20%;
+}
+
+/* second*/
+#second {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.phone_img {
+    width: 100%;
+    height: auto;
+}
+
+/* form*/
 #form {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -16,3 +43,7 @@
     text-align: center;
     color: #273646;
 }
+
+
+
+
