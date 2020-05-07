@@ -201,14 +201,14 @@
     margin-top: -10%;
 }
 .sixth_wallet {
-    width: 150%;
+    width: 100%;
     margin-top: 100px;
     transform: translate3d(0px, 0px, 0px);
     transition: transform .2s ease-in-out;
 }
 
 .sixth_wallet:hover {
-    transform: translate3d(0px, 50px, 0px);
+    transform: translate3d(40%, 50px, 0px);
 }
 
 /* seventh*/
